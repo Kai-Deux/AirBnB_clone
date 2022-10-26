@@ -14,7 +14,8 @@ from models.review import Review
 
 storage = models.storage._FileStorage__objects
 
-valid_classes = {'BaseModel': BaseModel,
+valid_classes = {
+                'BaseModel': BaseModel,
                 'User': User,
                 'State': State,
                 'City': City,
@@ -22,13 +23,14 @@ valid_classes = {'BaseModel': BaseModel,
                 'Place': Place,
                 'Review': Review}
 
-valid_class_strings = {'BaseModel': 'BaseModel',
-                     'User': 'User',
-                     'State': 'State',
-                     'City': 'City',
-                     'Amenity': 'Amenity',
-                     'Place': 'Place',
-                     'Review': 'Review'}
+valid_class_strings = {
+                      'BaseModel': 'BaseModel',
+                      'User': 'User',
+                      'State': 'State',
+                      'City': 'City',
+                      'Amenity': 'Amenity',
+                      'Place': 'Place',
+                      'Review': 'Review'}
 
 valid_commands = {'all()': 'all'}
 

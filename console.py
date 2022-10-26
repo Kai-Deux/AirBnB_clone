@@ -49,7 +49,7 @@ class HBNBCommand(cmd.Cmd):
             command = args[1][:args[1].find("(")]
             command = HBNBCommand.valid_commands[command]
             command(class_name, arg)
-        except:
+        except Exception:
             return(cmd.Cmd.default(self, arg))
 
     def do_quit(self, s):
@@ -171,7 +171,7 @@ class HBNBCommand(cmd.Cmd):
             key = "{}.{}".format(args[0], args[1])
             try:
                 instance = HBNBCommand.objects_dict[key]
-            except:
+            except Exception:
                 print("** no instance found **")
                 return
             if len(args) < 3:
@@ -186,9 +186,9 @@ class HBNBCommand(cmd.Cmd):
                         type_ = type(getattr(instance, args[2]))
                         try:
                             setattr(instance, args[2], type_(args[3]))
-                        except:
+                        except Exception:
                             print("You can't cast to type: {}".format(type_))
-                    except:
+                    except Exception:
                         setattr(instance, args[2], str(args[3]))
 
     def help_update(self):
