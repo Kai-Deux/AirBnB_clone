@@ -8,8 +8,8 @@ This project is the first step towards building a full web application of the Ai
 
 This console will allow us to do the following:
 
-* Create a new object
-* Retrieve an object from a file, a database etc…
+* Create a `new object`
+* Retrieve an object from a `file, a database etc…`
 * Do operations on objects (count, compute stats, etc…)
 * Update attributes of an object
 * Destroy an object
@@ -80,5 +80,5 @@ Command | Description
 
 ## Authors
 
-* **Yeshan Pillay** - Github: [Yeshan111](https://github.com/yeshan111)
-* **Rohisha Ramauthar** - Github: [Kai-Deux](https://github.com/Kai-Deux)
+* **Yeshan Pillay** - Github: [Yeshan111](https://github.com/yeshan111) 
+* **Rohisha Ramauthar** - Github: [Kai-Deux](https://github.com/Kai-Deux) 
