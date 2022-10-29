@@ -17,7 +17,7 @@ class TestFileStorageClassCreation(unittest.TestCase):
         self.file = 'file.json'
         try:
             os.remove(self.file)
-        except:
+        except Exception:
             pass
         self.x = BaseModel()
         self.fs = FileStorage()
@@ -26,7 +26,7 @@ class TestFileStorageClassCreation(unittest.TestCase):
     def tearDown(self):
         try:
             os.remove(self.file)
-        except:
+        except Exception:
             pass
 
     def test_inheritance(self):
