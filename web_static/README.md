@@ -73,4 +73,4 @@ What you should learn from this project:
 ---
 
 ## Author
-* **Amara Bamba** - [aysuarex](https://github.com/dev_amara)
+* **Yeshan Pillay** - [yeshan111](https://github.com/yeshan111)
